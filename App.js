@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, View, StyleSheet, TextInput, Image, Button, Alert, ListView, ScrollView, WebView} from 'react-native';
+import { Text, View, StyleSheet, TextInput, Image, Button, Alert, ListView, ScrollView, WebView, HTMLView} from 'react-native';
 //import HeadersTop from ".//HeaderTop.js";
 // You can import from local files
 //import NavigationBar from 'react-native-navigation-bar';
@@ -55,8 +55,7 @@ export default class App extends Component {
 }).then(res => res.json())
 .catch(error => console.error('Error:', error))
 .then(response => {
-	console.warn('Success:' , response)
-   
+	
     this.setState({
    		data: JSON.stringify(response.directions),
         totdist: JSON.stringify(response.distance),
@@ -72,7 +71,7 @@ export default class App extends Component {
 			distance.push(dir[i].distance);
 			duration.push(dir[i].duration);
 			instr.push(dir[i].html_instructions);
-            finalRow="Distance:"+distance[i]+"\nDuration: "+duration[i]+"\nTravel:  "+instr[i];
+            finalRow="Distance:"+distance[i]+"\n Duration: "+duration[i]+"\n Travel:  "+instr[i];
             rowData = `${rowData} Step ${i} : \n ${finalRow} \n\n`;
 }
   this.setState({
@@ -87,8 +86,8 @@ console.log('final:', rowData)
 
 });
     Alert.alert(
-      'Button pressed!' ,
-       
+      'Find the directions here!' ,
+		'Have a great trip!!' ,       
     );
   };
   render() {
@@ -134,12 +133,11 @@ console.log('final:', rowData)
 		/>  
     </View>
 	   <Button 
-          title="Travel time"
+          title="Submit"
           onPress={this._handleButtonPress}
         />
-		
-       
-         	<Text>
+		  
+         	<Text style={styles.heads}>
 			Total distance:{this.state.totdist}{'\n'}
             Total duration:{this.state.totdur}{'\n'}
             </Text>
@@ -178,6 +176,15 @@ const styles = StyleSheet.create({
       borderColor: '#7a42f4',
       borderWidth: 1
    },
+   heads: {
+    margin: 10,
+    fontSize: 15,
+    fontWeight: 'bold',
+	color: '#ff00ff',
+	backgroundColor: '#ffffff',
+	borderColor: '#ffffff',
+    borderWidth: 2
+  },
   para: {
     margin: 10,
     fontSize: 15,
