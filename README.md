@@ -30,8 +30,8 @@ This api requests origin and destination as parameters and responses directions,
   2. Get the source code of both front end and back end from https://github.com/rohitidke/Google-maps-api
   
 # Expo live demo
-https://drive.google.com/open?id=1z6gfi5_PKoHV8E9Uu3N1q8xge1I5N0YF
-[![Watch the video](https://github.com/supraja98/GoogleMaps/blob/master/Screenshot_2018-01-29-19-08-18-862_com.miui.gallery.png)
+
+[![Watch the video](https://github.com/supraja98/GoogleMaps/blob/master/Screenshot_2018-01-29-19-08-18-862_com.miui.gallery.png)(https://drive.google.com/open?id=1z6gfi5_PKoHV8E9Uu3N1q8xge1I5N0YF)
   
 # Using Source Code
 
