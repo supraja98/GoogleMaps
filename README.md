@@ -30,9 +30,8 @@ This api requests origin and destination as parameters and responses directions,
   2. Get the source code of both front end and back end from https://github.com/rohitidke/Google-maps-api
   
 # Expo live demo
-
-
-<video src="http://youtu.be/vt5fpE0bzSY" width="320" height="200" controls preload></video>
+https://drive.google.com/open?id=1z6gfi5_PKoHV8E9Uu3N1q8xge1I5N0YF
+[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://drive.google.com/open?id=1z6gfi5_PKoHV8E9Uu3N1q8xge1I5N0YF)
   
 # Using Source Code
 
