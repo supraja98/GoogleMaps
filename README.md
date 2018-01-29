@@ -1,30 +1,64 @@
 # GoogleMaps
+# Google Maps Api Clone
+   This is a react native app which is a clone of google maps api. It takes source and destination as input from user and displays tha total time and distance to travel. It also shows instructions which can direct you from source to destination.
+
+# Api Used:
+  https://app.brusqueness80.hasura-app.io/api
+
+This api requests origin and destination as parameters and responses directions, distance and duration along with instructions.
+
+# Steps to run:
+# a) Using Expo
+
+ 1. Install the Expo client app on your iOS or Android phone 
+    a. https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en
+    b. https://itunes.apple.com/us/app/expo-client/id982107779?mt=8
+ 2. Scan the QR code provided in the expo link https://expo.io/@supraja/google-maps
+ 3. You will get tha app functioning.
+ 4. Enter source and destination.
+ 5. Press submit button. You will get an alert box .Click ok. 
+ 6. Now you will find the total distance , durations and directions.
+
+# b) Using apk file in android phones.
+   
+   1. Google drive link to apk: https://drive.google.com/file/d/1S3aySOx7Xsn1NugwHKQ_e_LtnUtKpvUa/view?usp=drivesdk
+      Notice:Use Expo app as apk takes longer time to render map.
+      
+# Source Code
+  1. Find the complete source code of react native ui(front end code) in https://github.com/supraja98/GoogleMaps/
+  2. Get the source code of both front end and back end from https://github.com/rohitidke/Google-maps-api
+  
+# Expo live demo
+
+  
+# Using Source Code
 
 1. If you have a project already, then go to that directory. Else follow this
-a. npm install -g create-react-native-app
-b. create-react-native-app Google_Maps
-c. cd GoogleMaps
-
+```
+ npm install -g create-react-native-app
+ create-react-native-app Google_Maps
+ cd GoogleMaps
+```
 
 2. Install NativeBase 
-a. npm install native-base --save
-
+```npm install native-base --save
+```
 3. Install @expo/vector-icons
-a. npm install @expo/vector-icons --save	
-
-4. CD into the new project directory
-a. cd GoogleMaps
-
-5. Start the development server locally
-a. npm start
-
+   ```npm install @expo/vector-icons --save	
+    ```
+4. Start the development server locally
+```npm start
+```
+5.Clone the source code and replace it with your project files.Then,  Run 
+ ```npm start
+  ```
 6. Install the Expo client app on your iOS or Android phone 
 a. https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en
 b. https://itunes.apple.com/us/app/expo-client/id982107779?mt=8
 
 7. Using the Expo app, scan the QR code from your terminal to open your project.
-Run your sample App in Expo 
-Now open your editor and edit App.js to do changes in the UI
+Run the GoogleMaps app in Expo 
+Now open your editor and edit App.js to do changes in the UI as required.
 
 Copy the code in this repository to your files.
 Run the app in expo.
