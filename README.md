@@ -12,6 +12,7 @@ This api requests origin and destination as parameters and responses directions,
 
  1. Install the Expo client app on your iOS or Android phone 
     a. https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en
+                  (or)
     b. https://itunes.apple.com/us/app/expo-client/id982107779?mt=8
  2. Scan the QR code provided in the expo link https://expo.io/@supraja/google-maps
  3. You will get tha app functioning.
@@ -41,16 +42,20 @@ This api requests origin and destination as parameters and responses directions,
 ```
 
 2. Install NativeBase 
-```npm install native-base --save
+```
+ npm install native-base --save
 ```
 3. Install @expo/vector-icons
-   ```npm install @expo/vector-icons --save	
+   ```
+   npm install @expo/vector-icons --save	
     ```
 4. Start the development server locally
-```npm start
+```
+npm start
 ```
 5.Clone the source code and replace it with your project files.Then,  Run 
- ```npm start
+ ```
+ npm start
   ```
 6. Install the Expo client app on your iOS or Android phone 
 a. https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en
