@@ -31,7 +31,6 @@ This api requests origin and destination as parameters and responses directions,
   
 # Expo live demo
 
-[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://youtu.be/vt5fpE0bzSY)
 
 <video src="http://youtu.be/vt5fpE0bzSY" width="320" height="200" controls preload></video>
   
