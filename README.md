@@ -31,7 +31,7 @@ This api requests origin and destination as parameters and responses directions,
   
 # Expo live demo
 
-Video lonk: https://drive.google.com/open?id=1z6gfi5_PKoHV8E9Uu3N1q8xge1I5N0YF
+Video link: https://drive.google.com/open?id=1z6gfi5_PKoHV8E9Uu3N1q8xge1I5N0YF
   
 # Using Source Code
 
