@@ -31,7 +31,7 @@ This api requests origin and destination as parameters and responses directions,
   
 # Expo live demo
 https://drive.google.com/open?id=1z6gfi5_PKoHV8E9Uu3N1q8xge1I5N0YF
-[![Watch the video](https://drive.google.com/open?id=13lXNifjt7oOEF-1GDwtuDQZFmpLxOo_l)](https://drive.google.com/open?id=1z6gfi5_PKoHV8E9Uu3N1q8xge1I5N0YF)
+[![Watch the video](https://github.com/supraja98/GoogleMaps/blob/master/Screenshot_2018-01-29-19-08-18-862_com.miui.gallery.png)
   
 # Using Source Code
 
